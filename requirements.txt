@@ -1,0 +1,5 @@
+pandas
+prophet
+joblib
+requests
+streamlit
