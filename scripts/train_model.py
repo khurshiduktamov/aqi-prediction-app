@@ -1,7 +1,6 @@
 import pandas as pd
 from prophet import Prophet
 import joblib
-from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Load the processed data
 data_path = 'data/processed/processed_data.csv'
@@ -35,14 +34,6 @@ predicted_test_data['ds'] = pd.to_datetime(predicted_test_data['ds'])
 test_data = test_data.rename(columns={'y': 'actual'})
 merged_data = pd.merge(test_data, predicted_test_data, on='ds')
 
-# Evaluate the model
-mae = mean_absolute_error(merged_data['actual'], merged_data['yhat'])
-mse = mean_squared_error(merged_data['actual'], merged_data['yhat'])
-rmse = mse ** 0.5
-
-print(f"Mean Absolute Error (MAE): {mae}")
-print(f"Mean Squared Error (MSE): {mse}")
-print(f"Root Mean Squared Error (RMSE): {rmse}")
 
 # Save the model
 model_path = 'data/models/prophet_model.pkl'
