@@ -9,12 +9,15 @@ All these data only for Tashkent city.
 ```sh
    git clone https://github.com/khurshiduktamov/aqi-prediction-app.git
    cd aqi-prediction-app
+```
 #### 2. Installing dependencies
 ```sh
    pip install -r requirements.txt
+```
 #### 3. Run the streamlit app
 ```sh
    streamlit run app/main.py
+```
 
 Workflow
 
@@ -49,3 +52,4 @@ git add .gitattributes
 git add data/models/prophet_model.pkl
 git commit -m "Track model files with Git LFS"
 git push
+```
