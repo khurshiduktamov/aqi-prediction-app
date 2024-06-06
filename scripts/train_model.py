@@ -1,7 +1,6 @@
 import pandas as pd
 from prophet import Prophet
 import joblib
-import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Load the processed data
@@ -44,16 +43,6 @@ rmse = mse ** 0.5
 print(f"Mean Absolute Error (MAE): {mae}")
 print(f"Mean Squared Error (MSE): {mse}")
 print(f"Root Mean Squared Error (RMSE): {rmse}")
-
-# Plot the results
-plt.figure(figsize=(10, 6))
-plt.plot(merged_data['ds'], merged_data['actual'], label='Actual')
-plt.plot(merged_data['ds'], merged_data['yhat'], label='Predicted')
-plt.xlabel('Date')
-plt.ylabel('PM2.5')
-plt.title('Actual vs Predicted PM2.5 Levels')
-plt.legend()
-plt.show()
 
 # Save the model
 model_path = 'data/models/prophet_model.pkl'

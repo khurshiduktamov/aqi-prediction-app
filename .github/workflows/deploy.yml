@@ -24,6 +24,6 @@ jobs:
         pip install -r requirements.txt
 
     - name: Deploy to Streamlit Cloud
-      run: streamlit deploy --app-path app/main.py --project-url https://github.com/yourusername/weather-prediction-app
+      run: streamlit deploy --app-path app/main.py --project-url https://github.com/khurshiduktamov/aqi-prediction-app
       env:
         STREAMLIT_API_TOKEN: ${{ secrets.STREAMLIT_API_TOKEN }}
