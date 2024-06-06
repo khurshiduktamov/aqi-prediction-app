@@ -3,4 +3,3 @@ prophet
 joblib
 requests
 streamlit
-scikit-learn
