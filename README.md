@@ -6,11 +6,14 @@ All these data only for Tashkent city.
 ### Setup and Installation
 
 #### 1. Clone the repository
+```sh
    git clone https://github.com/khurshiduktamov/aqi-prediction-app.git
    cd aqi-prediction-app
 #### 2. Installing dependencies
+```sh
    pip install -r requirements.txt
 #### 3. Run the streamlit app
+```sh
    streamlit run app/main.py
 
 Workflow
