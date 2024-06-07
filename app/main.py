@@ -3,6 +3,9 @@ import pandas as pd
 import json
 import plotly.express as px
 
+# Set the page title
+st.set_page_config(page_title="AQI Predictions")
+
 # Load predictions
 predictions_path = 'data/processed/predictions.csv'
 predictions = pd.read_csv(predictions_path)
@@ -25,7 +28,7 @@ city_name = latest_weather_entry['city']['name']
 update_time = latest_weather_entry['time']['iso']
 
 # Streamlit app
-st.title('Air Quality and Weather Prediction App')
+st.title('Air Quality Prediction App')
 
 # Display current weather
 st.header(f"Current Weather in {city_name}")
