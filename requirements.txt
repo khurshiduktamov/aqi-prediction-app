@@ -4,3 +4,4 @@ joblib
 requests
 streamlit
 statsmodels
+plotly
