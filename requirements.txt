@@ -3,3 +3,4 @@ prophet
 joblib
 requests
 streamlit
+statsmodels
