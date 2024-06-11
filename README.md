@@ -1,6 +1,7 @@
-### README.md for Weather Prediction App     https://aqi-prediction-app.streamlit.app/
+### README.md for AQI Prediction App     https://aqi-prediction-app.streamlit.app/
 
-## Weather Prediction App
+Air quality in Tashkent has been getting worse over the last 5 years. There have been times when Tashkent ranked first for the worst air quality. The main pollutant is PM2.5. I built this app to track today's weather, make predictions for the next 5 days, and plan outdoor or indoor activities accordingly.
+
 
 This project is a comprehensive weather and air quality prediction application built using Python, Streamlit, and various data science tools. The app displays current weather conditions, air quality index (AQI), and predicts PM2.5 levels for the next five days. The project is structured to facilitate data fetching, processing, model training, and deployment in a systematic manner.
 
