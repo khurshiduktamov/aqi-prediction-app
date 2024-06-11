@@ -6,6 +6,20 @@ import plotly.express as px
 # Set the page title
 st.set_page_config(page_title="AQI Predictions")
 
+# Add GitHub link with logo at the top
+st.markdown(
+    """
+    <div style="display: flex; align-items: center;">
+        <h3><a href="https://github.com/khurshiduktamov/aqi-prediction-app" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/007BFF/github.png" alt="GitHub" style="margin-right: 10px;">Github Repository   
+        </a>
+        </h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # Load predictions
 predictions_path = 'data/processed/predictions.csv'
 predictions = pd.read_csv(predictions_path)
