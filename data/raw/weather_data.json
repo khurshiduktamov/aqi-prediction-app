@@ -15467,6 +15467,241 @@
                     "sync": "2024-07-28T15:17:47+09:00"
                 }
             }
+        },
+        {
+            "status": "ok",
+            "data": {
+                "aqi": 38,
+                "idx": 11219,
+                "attributions": [
+                    {
+                        "url": "https://monitoring.meteo.uz/",
+                        "name": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+                        "logo": "UZ-uzhydromet.png"
+                    },
+                    {
+                        "url": "http://worldweather.wmo.int",
+                        "name": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)"
+                    },
+                    {
+                        "url": "https://uz.usembassy.gov/",
+                        "name": "Tashkent Air Quality Monitor - US Embassy",
+                        "logo": "US-StateDepartment.png"
+                    },
+                    {
+                        "url": "https://waqi.info/",
+                        "name": "World Air Quality Index Project"
+                    }
+                ],
+                "city": {
+                    "geo": [
+                        41.3672,
+                        69.2725
+                    ],
+                    "name": "Tashkent US Embassy, Uzbekistan",
+                    "url": "https://aqicn.org/city/uzbekistan/tashkent/us-embassy",
+                    "location": ""
+                },
+                "dominentpol": "pm25",
+                "iaqi": {
+                    "dew": {
+                        "v": 12
+                    },
+                    "h": {
+                        "v": 32
+                    },
+                    "p": {
+                        "v": 1007
+                    },
+                    "pm25": {
+                        "v": 38
+                    },
+                    "t": {
+                        "v": 30.5
+                    },
+                    "w": {
+                        "v": 2
+                    },
+                    "wg": {
+                        "v": 8.2
+                    }
+                },
+                "time": {
+                    "s": "2024-07-29 10:00:00",
+                    "tz": "+05:00",
+                    "v": 1722247200,
+                    "iso": "2024-07-29T10:00:00+05:00"
+                },
+                "forecast": {
+                    "daily": {
+                        "o3": [
+                            {
+                                "avg": 16,
+                                "day": "2024-07-27",
+                                "max": 26,
+                                "min": 9
+                            },
+                            {
+                                "avg": 17,
+                                "day": "2024-07-28",
+                                "max": 26,
+                                "min": 10
+                            },
+                            {
+                                "avg": 16,
+                                "day": "2024-07-29",
+                                "max": 34,
+                                "min": 7
+                            },
+                            {
+                                "avg": 16,
+                                "day": "2024-07-30",
+                                "max": 28,
+                                "min": 3
+                            },
+                            {
+                                "avg": 17,
+                                "day": "2024-07-31",
+                                "max": 36,
+                                "min": 5
+                            },
+                            {
+                                "avg": 19,
+                                "day": "2024-08-01",
+                                "max": 46,
+                                "min": 7
+                            },
+                            {
+                                "avg": 18,
+                                "day": "2024-08-02",
+                                "max": 30,
+                                "min": 9
+                            },
+                            {
+                                "avg": 7,
+                                "day": "2024-08-03",
+                                "max": 8,
+                                "min": 7
+                            }
+                        ],
+                        "pm10": [
+                            {
+                                "avg": 38,
+                                "day": "2024-07-27",
+                                "max": 48,
+                                "min": 20
+                            },
+                            {
+                                "avg": 24,
+                                "day": "2024-07-28",
+                                "max": 28,
+                                "min": 19
+                            },
+                            {
+                                "avg": 22,
+                                "day": "2024-07-29",
+                                "max": 28,
+                                "min": 13
+                            },
+                            {
+                                "avg": 30,
+                                "day": "2024-07-30",
+                                "max": 46,
+                                "min": 10
+                            },
+                            {
+                                "avg": 58,
+                                "day": "2024-07-31",
+                                "max": 61,
+                                "min": 46
+                            },
+                            {
+                                "avg": 71,
+                                "day": "2024-08-01",
+                                "max": 73,
+                                "min": 58
+                            },
+                            {
+                                "avg": 99,
+                                "day": "2024-08-02",
+                                "max": 174,
+                                "min": 34
+                            },
+                            {
+                                "avg": 37,
+                                "day": "2024-08-03",
+                                "max": 58,
+                                "min": 18
+                            },
+                            {
+                                "avg": 27,
+                                "day": "2024-08-04",
+                                "max": 28,
+                                "min": 18
+                            }
+                        ],
+                        "pm25": [
+                            {
+                                "avg": 65,
+                                "day": "2024-07-27",
+                                "max": 89,
+                                "min": 35
+                            },
+                            {
+                                "avg": 57,
+                                "day": "2024-07-28",
+                                "max": 68,
+                                "min": 31
+                            },
+                            {
+                                "avg": 57,
+                                "day": "2024-07-29",
+                                "max": 68,
+                                "min": 34
+                            },
+                            {
+                                "avg": 65,
+                                "day": "2024-07-30",
+                                "max": 68,
+                                "min": 30
+                            },
+                            {
+                                "avg": 87,
+                                "day": "2024-07-31",
+                                "max": 89,
+                                "min": 68
+                            },
+                            {
+                                "avg": 117,
+                                "day": "2024-08-01",
+                                "max": 138,
+                                "min": 89
+                            },
+                            {
+                                "avg": 116,
+                                "day": "2024-08-02",
+                                "max": 159,
+                                "min": 65
+                            },
+                            {
+                                "avg": 61,
+                                "day": "2024-08-03",
+                                "max": 89,
+                                "min": 40
+                            },
+                            {
+                                "avg": 64,
+                                "day": "2024-08-04",
+                                "max": 68,
+                                "min": 40
+                            }
+                        ]
+                    }
+                },
+                "debug": {
+                    "sync": "2024-07-29T15:03:48+09:00"
+                }
+            }
         }
     ]
 }
