@@ -52017,6 +52017,294 @@
                     "sync": "2024-12-13T15:13:03+09:00"
                 }
             }
+        },
+        {
+            "status": "ok",
+            "data": {
+                "aqi": 33,
+                "idx": 11219,
+                "attributions": [
+                    {
+                        "url": "https://uz.usembassy.gov/",
+                        "name": "Tashkent Air Quality Monitor - US Embassy",
+                        "logo": "US-StateDepartment.png"
+                    },
+                    {
+                        "url": "https://monitoring.meteo.uz/",
+                        "name": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+                        "logo": "UZ-uzhydromet.png"
+                    },
+                    {
+                        "url": "http://worldweather.wmo.int",
+                        "name": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)"
+                    },
+                    {
+                        "url": "https://waqi.info/",
+                        "name": "World Air Quality Index Project"
+                    }
+                ],
+                "city": {
+                    "geo": [
+                        41.3672,
+                        69.2725
+                    ],
+                    "name": "Tashkent US Embassy, Uzbekistan",
+                    "url": "https://aqicn.org/city/uzbekistan/tashkent/us-embassy",
+                    "location": ""
+                },
+                "dominentpol": "co",
+                "iaqi": {
+                    "co": {
+                        "v": 32.6
+                    },
+                    "dew": {
+                        "v": -2
+                    },
+                    "h": {
+                        "v": 43
+                    },
+                    "no2": {
+                        "v": 5.1
+                    },
+                    "o3": {
+                        "v": 0.1
+                    },
+                    "p": {
+                        "v": 1013
+                    },
+                    "pm25": {
+                        "v": 144
+                    },
+                    "so2": {
+                        "v": 9.7
+                    },
+                    "t": {
+                        "v": 10
+                    },
+                    "w": {
+                        "v": 2
+                    }
+                },
+                "time": {
+                    "s": "2024-12-14 11:00:00",
+                    "tz": "+05:00",
+                    "v": 1734174000,
+                    "iso": "2024-12-14T11:00:00+05:00"
+                },
+                "forecast": {
+                    "daily": {
+                        "o3": [
+                            {
+                                "avg": 3,
+                                "day": "2024-12-12",
+                                "max": 12,
+                                "min": 1
+                            },
+                            {
+                                "avg": 4,
+                                "day": "2024-12-13",
+                                "max": 13,
+                                "min": 2
+                            },
+                            {
+                                "avg": 2,
+                                "day": "2024-12-14",
+                                "max": 12,
+                                "min": 1
+                            },
+                            {
+                                "avg": 6,
+                                "day": "2024-12-15",
+                                "max": 14,
+                                "min": 1
+                            },
+                            {
+                                "avg": 1,
+                                "day": "2024-12-16",
+                                "max": 6,
+                                "min": 1
+                            },
+                            {
+                                "avg": 2,
+                                "day": "2024-12-17",
+                                "max": 6,
+                                "min": 1
+                            },
+                            {
+                                "avg": 2,
+                                "day": "2024-12-18",
+                                "max": 9,
+                                "min": 1
+                            },
+                            {
+                                "avg": 2,
+                                "day": "2024-12-19",
+                                "max": 9,
+                                "min": 2
+                            }
+                        ],
+                        "pm10": [
+                            {
+                                "avg": 23,
+                                "day": "2024-12-12",
+                                "max": 29,
+                                "min": 20
+                            },
+                            {
+                                "avg": 18,
+                                "day": "2024-12-13",
+                                "max": 20,
+                                "min": 18
+                            },
+                            {
+                                "avg": 20,
+                                "day": "2024-12-14",
+                                "max": 27,
+                                "min": 18
+                            },
+                            {
+                                "avg": 31,
+                                "day": "2024-12-15",
+                                "max": 46,
+                                "min": 6
+                            },
+                            {
+                                "avg": 33,
+                                "day": "2024-12-16",
+                                "max": 46,
+                                "min": 19
+                            },
+                            {
+                                "avg": 42,
+                                "day": "2024-12-17",
+                                "max": 58,
+                                "min": 28
+                            },
+                            {
+                                "avg": 30,
+                                "day": "2024-12-18",
+                                "max": 46,
+                                "min": 20
+                            },
+                            {
+                                "avg": 25,
+                                "day": "2024-12-19",
+                                "max": 30,
+                                "min": 20
+                            },
+                            {
+                                "avg": 20,
+                                "day": "2024-12-20",
+                                "max": 20,
+                                "min": 18
+                            }
+                        ],
+                        "pm25": [
+                            {
+                                "avg": 77,
+                                "day": "2024-12-12",
+                                "max": 101,
+                                "min": 69
+                            },
+                            {
+                                "avg": 68,
+                                "day": "2024-12-13",
+                                "max": 69,
+                                "min": 68
+                            },
+                            {
+                                "avg": 70,
+                                "day": "2024-12-14",
+                                "max": 74,
+                                "min": 68
+                            },
+                            {
+                                "avg": 78,
+                                "day": "2024-12-15",
+                                "max": 101,
+                                "min": 28
+                            },
+                            {
+                                "avg": 102,
+                                "day": "2024-12-16",
+                                "max": 138,
+                                "min": 68
+                            },
+                            {
+                                "avg": 129,
+                                "day": "2024-12-17",
+                                "max": 159,
+                                "min": 101
+                            },
+                            {
+                                "avg": 99,
+                                "day": "2024-12-18",
+                                "max": 138,
+                                "min": 69
+                            },
+                            {
+                                "avg": 79,
+                                "day": "2024-12-19",
+                                "max": 101,
+                                "min": 69
+                            },
+                            {
+                                "avg": 69,
+                                "day": "2024-12-20",
+                                "max": 69,
+                                "min": 63
+                            }
+                        ],
+                        "uvi": [
+                            {
+                                "avg": 0,
+                                "day": "2024-12-12",
+                                "max": 2,
+                                "min": 0
+                            },
+                            {
+                                "avg": 0,
+                                "day": "2024-12-13",
+                                "max": 1,
+                                "min": 0
+                            },
+                            {
+                                "avg": 0,
+                                "day": "2024-12-14",
+                                "max": 1,
+                                "min": 0
+                            },
+                            {
+                                "avg": 0,
+                                "day": "2024-12-15",
+                                "max": 0,
+                                "min": 0
+                            },
+                            {
+                                "avg": 0,
+                                "day": "2024-12-16",
+                                "max": 2,
+                                "min": 0
+                            },
+                            {
+                                "avg": 0,
+                                "day": "2024-12-17",
+                                "max": 2,
+                                "min": 0
+                            },
+                            {
+                                "avg": 0,
+                                "day": "2024-12-18",
+                                "max": 1,
+                                "min": 0
+                            }
+                        ]
+                    }
+                },
+                "debug": {
+                    "sync": "2024-12-14T15:11:10+09:00"
+                }
+            }
         }
     ]
 }
