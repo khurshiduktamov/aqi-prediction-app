@@ -70623,6 +70623,297 @@
                     "sync": "2025-02-16T15:10:19+09:00"
                 }
             }
+        },
+        {
+            "status": "ok",
+            "data": {
+                "aqi": 173,
+                "idx": 11219,
+                "attributions": [
+                    {
+                        "url": "http://worldweather.wmo.int",
+                        "name": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)"
+                    },
+                    {
+                        "url": "https://uz.usembassy.gov/",
+                        "name": "Tashkent Air Quality Monitor - US Embassy",
+                        "logo": "US-StateDepartment.png"
+                    },
+                    {
+                        "url": "https://monitoring.meteo.uz/",
+                        "name": "Uzhydromet - Center for Hydrometeorological Service of the Republic of Uzbekistan",
+                        "logo": "UZ-uzhydromet.png"
+                    },
+                    {
+                        "url": "https://waqi.info/",
+                        "name": "World Air Quality Index Project"
+                    }
+                ],
+                "city": {
+                    "geo": [
+                        41.3672,
+                        69.2725
+                    ],
+                    "name": "Tashkent US Embassy, Uzbekistan",
+                    "url": "https://aqicn.org/city/uzbekistan/tashkent/us-embassy",
+                    "location": ""
+                },
+                "dominentpol": "pm25",
+                "iaqi": {
+                    "co": {
+                        "v": 13.4
+                    },
+                    "dew": {
+                        "v": 0
+                    },
+                    "h": {
+                        "v": 80
+                    },
+                    "no2": {
+                        "v": 4.6
+                    },
+                    "o3": {
+                        "v": 0.1
+                    },
+                    "p": {
+                        "v": 1028
+                    },
+                    "pm25": {
+                        "v": 173
+                    },
+                    "so2": {
+                        "v": 6.6
+                    },
+                    "t": {
+                        "v": 3
+                    },
+                    "w": {
+                        "v": 2
+                    },
+                    "wg": {
+                        "v": 8.2
+                    }
+                },
+                "time": {
+                    "s": "2025-02-17 09:00:00",
+                    "tz": "+05:00",
+                    "v": 1739782800,
+                    "iso": "2025-02-17T09:00:00+05:00"
+                },
+                "forecast": {
+                    "daily": {
+                        "o3": [
+                            {
+                                "avg": 5,
+                                "day": "2025-02-15",
+                                "max": 15,
+                                "min": 1
+                            },
+                            {
+                                "avg": 1,
+                                "day": "2025-02-16",
+                                "max": 9,
+                                "min": 1
+                            },
+                            {
+                                "avg": 2,
+                                "day": "2025-02-17",
+                                "max": 12,
+                                "min": 1
+                            },
+                            {
+                                "avg": 5,
+                                "day": "2025-02-18",
+                                "max": 19,
+                                "min": 1
+                            },
+                            {
+                                "avg": 2,
+                                "day": "2025-02-19",
+                                "max": 20,
+                                "min": 1
+                            },
+                            {
+                                "avg": 6,
+                                "day": "2025-02-20",
+                                "max": 23,
+                                "min": 1
+                            },
+                            {
+                                "avg": 7,
+                                "day": "2025-02-21",
+                                "max": 20,
+                                "min": 1
+                            },
+                            {
+                                "avg": 2,
+                                "day": "2025-02-22",
+                                "max": 7,
+                                "min": 2
+                            }
+                        ],
+                        "pm10": [
+                            {
+                                "avg": 24,
+                                "day": "2025-02-15",
+                                "max": 30,
+                                "min": 19
+                            },
+                            {
+                                "avg": 31,
+                                "day": "2025-02-16",
+                                "max": 46,
+                                "min": 23
+                            },
+                            {
+                                "avg": 39,
+                                "day": "2025-02-17",
+                                "max": 46,
+                                "min": 28
+                            },
+                            {
+                                "avg": 21,
+                                "day": "2025-02-18",
+                                "max": 27,
+                                "min": 18
+                            },
+                            {
+                                "avg": 31,
+                                "day": "2025-02-19",
+                                "max": 46,
+                                "min": 27
+                            },
+                            {
+                                "avg": 42,
+                                "day": "2025-02-20",
+                                "max": 46,
+                                "min": 29
+                            },
+                            {
+                                "avg": 30,
+                                "day": "2025-02-21",
+                                "max": 46,
+                                "min": 27
+                            },
+                            {
+                                "avg": 31,
+                                "day": "2025-02-22",
+                                "max": 43,
+                                "min": 27
+                            },
+                            {
+                                "avg": 28,
+                                "day": "2025-02-23",
+                                "max": 29,
+                                "min": 27
+                            }
+                        ],
+                        "pm25": [
+                            {
+                                "avg": 80,
+                                "day": "2025-02-15",
+                                "max": 92,
+                                "min": 68
+                            },
+                            {
+                                "avg": 98,
+                                "day": "2025-02-16",
+                                "max": 138,
+                                "min": 75
+                            },
+                            {
+                                "avg": 117,
+                                "day": "2025-02-17",
+                                "max": 138,
+                                "min": 89
+                            },
+                            {
+                                "avg": 71,
+                                "day": "2025-02-18",
+                                "max": 85,
+                                "min": 63
+                            },
+                            {
+                                "avg": 95,
+                                "day": "2025-02-19",
+                                "max": 127,
+                                "min": 85
+                            },
+                            {
+                                "avg": 125,
+                                "day": "2025-02-20",
+                                "max": 138,
+                                "min": 92
+                            },
+                            {
+                                "avg": 88,
+                                "day": "2025-02-21",
+                                "max": 135,
+                                "min": 69
+                            },
+                            {
+                                "avg": 94,
+                                "day": "2025-02-22",
+                                "max": 128,
+                                "min": 69
+                            },
+                            {
+                                "avg": 87,
+                                "day": "2025-02-23",
+                                "max": 91,
+                                "min": 69
+                            }
+                        ],
+                        "uvi": [
+                            {
+                                "avg": 0,
+                                "day": "2025-02-15",
+                                "max": 2,
+                                "min": 0
+                            },
+                            {
+                                "avg": 0,
+                                "day": "2025-02-16",
+                                "max": 1,
+                                "min": 0
+                            },
+                            {
+                                "avg": 1,
+                                "day": "2025-02-17",
+                                "max": 3,
+                                "min": 0
+                            },
+                            {
+                                "avg": 1,
+                                "day": "2025-02-18",
+                                "max": 3,
+                                "min": 0
+                            },
+                            {
+                                "avg": 0,
+                                "day": "2025-02-19",
+                                "max": 2,
+                                "min": 0
+                            },
+                            {
+                                "avg": 1,
+                                "day": "2025-02-20",
+                                "max": 3,
+                                "min": 0
+                            },
+                            {
+                                "avg": 1,
+                                "day": "2025-02-21",
+                                "max": 3,
+                                "min": 0
+                            }
+                        ]
+                    }
+                },
+                "debug": {
+                    "sync": "2025-02-17T14:28:47+09:00"
+                }
+            }
         }
     ]
 }
